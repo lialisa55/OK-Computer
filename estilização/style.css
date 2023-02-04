@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(24, 20, 37);
+}
+* {
+    box-sizing: border-box;
+    color: rgb(253, 251, 254);
+    margin: 2%;
+}
+
+header{
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+main, nav{
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px;
+}
