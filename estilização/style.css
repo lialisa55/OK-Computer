@@ -39,3 +39,15 @@ h5{
     font-size: 2.3em;
     text-align: center;
 }
+
+h6{
+    text-align: right;
+    font-size: 2em;
+    margin-top: ;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 500px;
+    height: 60px;
+}
