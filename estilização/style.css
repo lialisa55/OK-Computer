@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 * {
     color: rgb(253, 251, 254);
@@ -18,7 +18,7 @@ body{
 }
 
 header{
-    border: 5px solid #f1f1f1;
+    border: 5px inset #f1f1f1;
     width: 34%;
     border-radius: 4px;
     margin-left: 31%;
@@ -50,17 +50,9 @@ header th img{
 }
 
 h1{
-    background-image: linear-gradient(to left, #f1f1f1, rgb(24,20,37));
-    font-family: "lores", sans-serif;
-    text-align: left;
-    color: f1f1f1;
-    font-size: 1.2rem;
-    margin: 0;
-    margin-left: 2%;
-    padding: 0;
-    right: 0;
-    height: 30px;
+    font-size: 1.5rem;
 }
+
 h5{
     font-family: "lores", sans-serif;
     font-size: 2.3em;
@@ -79,16 +71,32 @@ h6{
 }
 
 audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     width: 100%;
     height: 50%;
+    z-index: -50;
 }
 
 main{
     left: 0;
-    padding: 10px;
+    padding-left: 10px;
     overflow:auto;
     height: 50%;
+}
+
+h1, .enunciado{
+    position: sticky;
+    background-color: rgb(31, 20, 37);
+    font-family: "lores", sans-serif;
+    text-align: left;
+    color: f1f1f1;
+    padding:0;
+    top: 0;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 1%;
+    padding: 0;
+    right: 0;
+    height: 35px;
 }
 
 nav{
@@ -103,14 +111,6 @@ nav table{
 table h5 {
     font-size: 1.6rem;
 }
-.enunciado{
-    border-bottom: 3px solid #f1f1f1;
-    border-radius: 4px;
-    left: 0;
-    right: 0;
-    padding: 1%;
-    font-family: "lores", sans-serif;
-}
 
 nav td, th{
     text-align: center;
@@ -121,7 +121,7 @@ nav p{
     font-family: "lores", sans-serif;
 }
 main th {
-    padding: 2%;
+    padding: 4%;
 }
 
 a:link { text-decoration: none; }
